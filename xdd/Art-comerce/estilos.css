@@ -1,0 +1,111 @@
+body{
+  margin: 0;
+}
+
+.header{
+  
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}
+
+.logo_nav{
+
+  margin-left: 30px;
+  width: 70px;
+  height: 65px;
+}
+
+.contenedor_links{
+   margin-left: 2rem;
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 25px;
+  width: 1px;
+}
+
+.contenedor_iconos{ 
+  
+  padding-right: 15px;
+  width: 250px;
+  height: 40px;
+}
+
+.iconos_nav a{
+  color: black;
+  font-size: 1.5em;
+}
+
+.main{
+  background: #ffffff;
+  padding-top: 6rem;
+  width: 100%;
+  height: auto;
+}
+
+.carousel{
+  width: 100%;
+  height: auto;
+}
+
+.tamaño_imagenes_carousel{
+  
+  width: 100%;
+  height: auto;
+}
+
+.img_carousel{
+  
+  width: 100%;
+  height: auto;
+}
+
+.productos_destacados{
+  padding-top: 40px;
+  font-family: 'Hammersmith One', sans-serif;
+}
+
+h1{
+  font-size: 60px;
+  font-family: 'Hammersmith One', sans-serif;
+}
+
+h2{
+  padding-top: 55px;
+  font-size: 50px;
+  font-family: 'Hammersmith One', sans-serif;
+}
+
+.borde_imagen{
+  /*border: black solid 1px;*/
+  border-radius: 8px;
+  width: 400px;
+  height: 440px;
+}
+
+.playeras_destacadas_hombre{
+  padding-top: 35px;
+  width: auto;
+  height: auto;
+}
+
+.playeras_destacadas_mujer{
+  padding-top: 45px;
+  width: auto;
+  height: auto;
+}
+
+.footer{
+  /*background: #e0e0e0;*/
+  width: 100%;
+  height: 50px;
+}
+
+.company_footer{
+  padding-left: 25px;
+}
+
+/*sección de productos para hombre*
+
+.contacto{
+  font-family: 'Satisfy', cursive;
+}
